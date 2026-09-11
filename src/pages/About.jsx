@@ -9,8 +9,8 @@ const values = [
 ]
 
 const team = [
-  { name: 'Nakimuli Patricia', role: 'Founder & Executive Director' },
-  { name: 'Okello Brian', role: 'Programs Director' },
+  { name: 'Flix ', role: 'Founder & Executive Director' },
+  { name: 'Vianny Mukisa', role: 'Programs Director' },
   { name: 'Aisha Namutebi', role: 'Finance & Accountability Lead' },
   { name: 'David Ssemwogerere', role: 'Community Partnerships' },
 ]
