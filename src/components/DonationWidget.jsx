@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import { Smartphone, Landmark, CreditCard, ShieldCheck } from 'lucide-react'
+import { Smartphone, Landmark, CreditCard, Wallet, ShieldCheck } from 'lucide-react'
 import { donationAmounts } from '../data/content.js'
 
 const methods = [
   { id: 'momo', label: 'Mobile Money', icon: Smartphone, note: 'MTN & Airtel, Uganda' },
   { id: 'bank', label: 'Bank Transfer', icon: Landmark, note: 'Local & international' },
   { id: 'card', label: 'Card Payment', icon: CreditCard, note: 'Visa, Mastercard' },
+  { id: 'paypal', label: 'PayPal', icon: Wallet, note: 'PayPal balance or linked card' },
 ]
 
 export default function DonationWidget({ compact = false }) {
@@ -20,6 +21,7 @@ export default function DonationWidget({ compact = false }) {
     e.preventDefault()
     // TODO: replace with a real payment integration —
     // Flutterwave or Pesapal cover Uganda Mobile Money + cards well;
+    // PayPal Checkout (paypal.com/checkout) handles the PayPal option separately;
     // this form currently has no backend wired up.
     alert(`This is a demo. In production this would start a ${frequency === 'monthly' ? 'monthly' : 'one-time'} ${method} donation of $${activeAmount || 0}.`)
   }
@@ -76,7 +78,7 @@ export default function DonationWidget({ compact = false }) {
 
       <fieldset className="mt-6">
         <legend className="text-sm font-medium text-ink/70 mb-3">Payment method</legend>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           {methods.map(({ id, label, icon: Icon, note }) => (
             <button
               type="button"
@@ -108,4 +110,3 @@ export default function DonationWidget({ compact = false }) {
     </form>
   )
 }
-
