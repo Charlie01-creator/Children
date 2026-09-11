@@ -1,4 +1,7 @@
 export const orgName = "M$F Children Foundation"
+export const contactEmail = "hello@mfchildrenfoundation.org"
+export const paypalMeLink = "https://www.paypal.com/paypalme/Saveme2667"
+export const airtelMoneyNumber = "+256 704 307277"
 
 export const stats = [
   { value: 2140, suffix: '+', label: 'Children directly supported' },
@@ -110,7 +113,7 @@ export const faqs = [
   },
   {
     q: 'Can I donate from outside Uganda?',
-    a: 'Yes. We accept international card payments in addition to Uganda Mobile Money and local bank transfer.',
+    a: 'Yes. International donors can give via PayPal, which accepts cards as well as PayPal balances. Airtel Money is available for donors sending directly from a Uganda phone number.',
   },
   {
     q: 'Can I sponsor a specific child?',
@@ -121,4 +124,3 @@ export const faqs = [
     a: 'This depends on your country of residence and our registration status there. Contact us and we\u2019ll confirm what applies to you.',
   },
 ]
-
