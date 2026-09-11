@@ -40,7 +40,7 @@ export default function Home() {
             className="relative"
           >
             <div className="aspect-[4/5] w-full rounded-lg bg-forest/10 flex items-center justify-center text-forest/40 text-sm border border-forest/15">
-              {/* Replace with real photography: a warm, dignified photo of children/community */}
+              {4.jpg}
               Photo placeholder — community &amp; children
             </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block bg-canvas border border-forest/10 rounded-lg px-5 py-4 shadow-sm">
