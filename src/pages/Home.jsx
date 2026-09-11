@@ -41,7 +41,7 @@ export default function Home() {
           >
             <div className="aspect-[4/5] w-full rounded-lg bg-forest/10 flex items-center justify-center text-forest/40 text-sm border border-forest/15">
               {4.jpg}
-              Photo placeholder — community &amp; children
+              Community & camp; children
             </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block bg-canvas border border-forest/10 rounded-lg px-5 py-4 shadow-sm">
               <p className="font-display text-2xl font-semibold text-forest-dark">410</p>
