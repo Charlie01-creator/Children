@@ -27,14 +27,14 @@ export default function Contact() {
             <MapPin size={18} className="text-forest mt-0.5 shrink-0" />
             <div>
               <p className="font-medium text-ink">Office</p>
-              <p className="text-sm text-ink/65">Bulenga, Kampala, Uganda</p>
+              <p className="text-sm text-ink/65">Mityana, Kampala, Uganda</p>
             </div>
           </div>
           <div className="flex gap-3">
             <Phone size={18} className="text-forest mt-0.5 shrink-0" />
             <div>
               <p className="font-medium text-ink">Phone</p>
-              <p className="text-sm text-ink/65">+256 700 000 000</p>
+              <p className="text-sm text-ink/65">+256 704 307277</p>
             </div>
           </div>
           <div className="flex gap-3">
