@@ -9,10 +9,10 @@ const values = [
 ]
 
 const team = [
-  { name: 'Flix ', role: 'Founder & Executive Director' },
-  { name: 'Vianny Mukisa', role: 'Programs Director' },
-  { name: 'Aisha Namutebi', role: 'Finance & Accountability Lead' },
-  { name: 'David Ssemwogerere', role: 'Community Partnerships' },
+  { name: 'Flix', role: 'Founder & Executive Director', image: '/images/team/flix.jpg' },
+  { name: 'Vianny Mukisa', role: 'Programs Director', image: '/images/team/vianny.jpg' },
+  { name: 'Aisha Namutebi', role: 'Finance & Accountability Lead', image: '/images/team/aisha.jpg' },
+  { name: 'David Ssemwogerere', role: 'Community Partnerships', image: '/images/team/david.jpg' },
 ]
 
 export default function About() {
@@ -71,7 +71,9 @@ export default function About() {
         <div className="mt-8 grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {team.map((t) => (
             <div key={t.name}>
-              <div className="aspect-square rounded-lg bg-forest/8 flex items-center justify-center text-forest/40 text-xs">Photo</div>
+              <div className="aspect-square rounded-lg overflow-hidden">
+                <img src={t.image} alt={t.name} className="w-full h-full object-cover" />
+              </div>
               <p className="mt-3 font-medium text-ink">{t.name}</p>
               <p className="text-sm text-ink/55">{t.role}</p>
             </div>
@@ -91,4 +93,3 @@ export default function About() {
     </>
   )
 }
-
