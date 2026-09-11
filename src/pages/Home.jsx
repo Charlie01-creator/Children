@@ -148,7 +148,7 @@ export default function Home() {
           </div>
           <div className="text-sm text-white/70 leading-relaxed">
             <h3 className="text-white font-medium mb-2">Accountability</h3>
-            <p>Registered nonprofit organisation, Uganda (Reg. No. [XXXXX]). Independently reviewed financials available on request and published annually.</p>
+            <p>Registered nonprofit organisation, Uganda (Reg. No. 262072). Independently reviewed financials available on request and published annually.</p>
           </div>
         </div>
       </section>
