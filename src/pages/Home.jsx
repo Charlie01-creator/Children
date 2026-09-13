@@ -46,6 +46,7 @@ export default function Home() {
     className="w-full h-full object-cover"
   />
 </div>
+</div>
             <div className="absolute -bottom-6 -left-6 hidden md:block bg-canvas border border-forest/10 rounded-lg px-5 py-4 shadow-sm">
               <p className="font-display text-2xl font-semibold text-forest-dark">410</p>
               <p className="text-xs text-ink/60 max-w-[16ch]">children in school through sponsorship this term</p>
