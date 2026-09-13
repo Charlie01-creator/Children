@@ -40,13 +40,12 @@ export default function Home() {
             className="relative"
           >
             <div className="aspect-[4/5] w-full rounded-lg overflow-hidden border border-forest/15">
-  <img
-    src="/images/4.jpg"
-    alt="Children and community members supported by M$F Children Foundation"
-    className="w-full h-full object-cover"
-  />
-</div>
-</div>
+              <img
+                src="/images/4.jpg"
+                alt="Children and community members supported by M$F Children Foundation"
+                className="w-full h-full object-cover"
+              />
+            </div>
             <div className="absolute -bottom-6 -left-6 hidden md:block bg-canvas border border-forest/10 rounded-lg px-5 py-4 shadow-sm">
               <p className="font-display text-2xl font-semibold text-forest-dark">410</p>
               <p className="text-xs text-ink/60 max-w-[16ch]">children in school through sponsorship this term</p>
