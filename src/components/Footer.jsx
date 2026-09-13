@@ -45,8 +45,8 @@ export default function Footer() {
         <div>
           <h3 className="text-sm font-semibold text-white mb-4">Contact</h3>
           <ul className="space-y-3 text-sm text-white/65">
-            <li className="flex items-start gap-2"><MapPin size={16} className="mt-0.5 shrink-0" /> Bulenga, Kampala, Uganda</li>
-            <li className="flex items-start gap-2"><Phone size={16} className="mt-0.5 shrink-0" /> +256 700 000 000</li>
+            <li className="flex items-start gap-2"><MapPin size={16} className="mt-0.5 shrink-0" /> Mityana, Kampala, Uganda</li>
+            <li className="flex items-start gap-2"><Phone size={16} className="mt-0.5 shrink-0" />+256 704 307277</li>
             <li className="flex items-start gap-2"><Mail size={16} className="mt-0.5 shrink-0" /> hello@mfchildrenfoundation.org</li>
           </ul>
         </div>
@@ -65,7 +65,7 @@ export default function Footer() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@example.com"
+                placeholder="hello@mfchildrenfoundation.org"
                 className="w-full min-w-0 rounded bg-white/10 px-3 py-2 text-sm text-white placeholder:text-white/40 border border-white/15 focus:border-gold-light"
               />
               <button type="submit" className="shrink-0 rounded bg-gold px-4 py-2 text-sm font-medium text-forest-dark hover:bg-gold-dark hover:text-white">
@@ -78,7 +78,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto max-w-6xl px-5 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/50">
-          <p>&copy; {new Date().getFullYear()} {orgName}. Registered nonprofit organisation, Uganda. Reg. No. [XXXXX].</p>
+          <p>&copy; {new Date().getFullYear()} {orgName}. Registered nonprofit organisation, Uganda. Reg. No. [206072].</p>
           <div className="flex gap-4">
             <Link to="/contact" className="hover:text-white/80">Privacy</Link>
             <Link to="/contact" className="hover:text-white/80">Terms</Link>
